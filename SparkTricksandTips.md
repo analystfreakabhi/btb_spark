@@ -43,3 +43,11 @@ val spark = org.apache.spark.sql.SparkSession.builder
          
         val df = spark.sql("SELECT * FROM csv.`csv/file/path/in/hdfs`")  
 ```
+
+**Scala classes SQL**
+
+Each of these classes is rich with a lot of functions. The diagram shows only the most
+common ones we need in this chapter. You should refer to either https://spark.apache.org/docs/2.1.1/api/scala/index.html#org.apache.spark.sql.SQLContext
+
+or to get full coverage http://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html
+
